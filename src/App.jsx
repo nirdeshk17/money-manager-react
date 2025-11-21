@@ -2,11 +2,11 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
 import Income from "./pages/Income"
 import Expense from "./pages/Expense"
 import Category from "./pages/Category"
-import Login from "./pages/login"
 import Signup from "./pages/signup"
 import { Toaster } from "react-hot-toast"
 import Home from "./pages/Home"
 import Filter from "./pages/Filter"
+import Login from "./pages/Login"
 
 const App=()=>{
   return(
