@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+
+body {
+    font-family: 'Outfit';
+    background-color: #fcfbfc;
+    overflow: hidden;
+}
+
+@layer components{
+    .btn{
+        @apply bg-white rounded border border-gray-300 px-5 py-1.5 hover:bg-slate-100
+    }
+
+     .btn-primary{
+        @apply bg-purple-600 rounded text-[14px] font-medium text-white px-2 py-2 hover:bg-purple-700
+    }
+    .btn-cancel{
+        @apply bg-red-500 rounded text-[14px] font-medium text-white px-2 py-2 hover:bg-red-600
+    }
+
+    .btn-add{
+        @apply bg-green-200 text-green-900 hover:bg-green-300 p-1 text-[13px] font-medium rounded
+    }
+
+    .card{
+        @apply bg-white shadow-2xl p-2
+    }
+
+    .card-btn{
+        @apply bg-gray-200 px-4 py-1 rounded hover:bg-gray-300
+    }
+
+    img{
+        @apply hover:scale-110 w-80 transition duration-1000 hover:brightness-125
+    }
+
+  
+}
+
